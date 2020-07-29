@@ -1,0 +1,37 @@
+.counter-display {
+    width: 100%;
+    font-size: 2rem;
+    background-color: crimson;
+    color: white;
+}
+
+.counter-panel {
+    width: 150px;
+    height: 35px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    font-size: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 15px;
+    box-shadow: 0 2px 2px #ccc;
+}
+
+
+.counter-panel:hover {
+    width: 155px;
+    height: 36px;
+    margin-left: 25px;
+}
+
+.counter-panel:active {
+    margin-left: 35px;
+    width: 145px;
+    height: 34px;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    background-color: #fee;
+}
